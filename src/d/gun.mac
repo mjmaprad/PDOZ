@@ -1,0 +1,19 @@
+/tracking/verbose 0
+/control/verbose 1
+/run/verbose 0
+#
+/run/initialize
+########################################
+/control/cout/ignoreThreadsExcept 0
+/gps/particle gamma
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/centre 0. 0. 5 cm # 0
+/gps/pos/radius 5 cm
+/gps/direction 0 0 -1
+/gps/energy 50 keV
+
+############################################################################
+############################################################################
+/run/printProgress 1000
+/run/beamOn   200000 #////1061400 #1769*10 min
